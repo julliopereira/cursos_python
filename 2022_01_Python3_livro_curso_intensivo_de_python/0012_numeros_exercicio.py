@@ -1,0 +1,12 @@
+### ESCREVA OPERACOES DIVERSAS QUE RESULTEM NO NUMERO 8
+
+print(5 + 3)
+print(9 - 1)
+print(4 * 2)
+print(32 / 4)
+
+print('-'*25)
+### ARMAZENAR NUMERO FAVORITO EM VARIAVEL. MOSTRE A MENSAGEM COM SEU NUMERO FAVORITO.
+
+numero = '8'
+print(numero)

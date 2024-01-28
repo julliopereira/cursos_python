@@ -1,0 +1,7 @@
+Em Python podemos criar listas
+Em Python podemos criar dicionarios
+Em Python podemos criar funções 
+Em Python podemos criar classes
+Em Python podemos tratar com strings
+Em Python podemos trabalhar com modulos
+Em Python podemos criar laços 
