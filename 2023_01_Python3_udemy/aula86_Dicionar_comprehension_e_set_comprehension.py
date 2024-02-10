@@ -1,6 +1,6 @@
 # Dictionary Comprehension e Set Comprehension
 produto = {
-    'nome': 'Canela Azul',
+    'nome': 'Caneta Azul',
     'preco': '2.5',
     'categora': 'Escritório',
 }
