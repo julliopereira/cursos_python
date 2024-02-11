@@ -18,7 +18,7 @@
 # Vamos falar mais sobre o módulo json, mas:
 # json.dump = Gera um arquivo json
 # json.load
-caminho_arquivo = 'aula116.txt'
+caminho_arquivo = 'aula119.txt'
 
 # arquivo = open(caminho_arquivo, 'w')
 # #
@@ -57,8 +57,9 @@ caminho_arquivo = 'aula116.txt'
 
 with open(caminho_arquivo, 'w+') as arquivo:
     print('Arquivo vai ser fechado')	    
-    arquivo.write('Linha 1\n')
+    arquivo.write('Linha 1\n')  # aceita escrita simples; uma linha
     arquivo.write('Linha 2\n')
     arquivo.writelines(
-        ('Linha 3\n', 'Linha 4\n')      # assim como write ele escreve no arquivo 
+        ('Linha 3\n', 'Linha 4\n')      # assim como write ele escreve no arquivo porem mais linhas
     )
+    
