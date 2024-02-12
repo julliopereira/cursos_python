@@ -20,4 +20,5 @@ p1 = Pessoa('João', 43)
 # print(p1.nome)
 # print(vars(p1))
 print(p1.nome)
+print(p1.get_ano_nascimento())
 
