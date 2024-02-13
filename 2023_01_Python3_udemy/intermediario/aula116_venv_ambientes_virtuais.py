@@ -21,3 +21,5 @@
 
     # DESATIVAR ambiente virtual
     # source /venv/bin/deactivate
+
+

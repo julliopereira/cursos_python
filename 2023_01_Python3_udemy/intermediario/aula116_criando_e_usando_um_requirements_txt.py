@@ -11,12 +11,15 @@
 
 # ------------------------------------------------------------------------------------------
 
+# VERIFICAR modulos instalados; esteja na venv e digite
+    # pip freeze     #para verificar os modulos instalados
+
 # GERAR o arquivo requirements.txt
 # (mandadorio estar no ambiente virtual venv)
 
-# pip freeze > requirements.txt
+    # pip freeze > requirements.txt
 
-# jogar para o github
+    # jogar para o github
 
 # ------------------------------------------------------------------------------------------
 # Apos CLONAR o repositorio em outra maquina deve recuperar os modulos do ambiente virtual 
