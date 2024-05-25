@@ -9,7 +9,7 @@ class Animal:
         print(variavel)
 
     def comendo(self, alimento):
-        return f'{self.nome} está comando {alimento}'
+        return f'{self.nome} está comendo {alimento}'
 
     def executar(self, *args, **kwargs):
         return self.comendo(*args, **kwargs)

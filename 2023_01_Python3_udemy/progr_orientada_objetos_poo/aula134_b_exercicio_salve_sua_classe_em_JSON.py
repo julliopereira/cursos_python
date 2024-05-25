@@ -9,6 +9,7 @@
 
 import json
 
+# importantando a variavel CAMINHO_ARQUIVO e a classe Pessoa do arquivo aula134_a_...
 from aula134_a_exercicio_salve_sua_classe_em_JSON import CAMINHO_ARQUIVO, Pessoa
 
 

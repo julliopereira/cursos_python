@@ -13,8 +13,8 @@ class Pessoa:
 p1 = Pessoa('João', 35)
 p2 = Pessoa('Helena', 12)
 
-print(Pessoa.ano_atual)
+print(f'ano atual',Pessoa.ano_atual)
 # Pessoa.ano_atual = 1
 
-print(p1.get_ano_nascimento())
-print(p2.get_ano_nascimento())
+print(f'ano de nascimento {p1.nome}:',p1.get_ano_nascimento())
+print(f'ano de nascimento {p1.nome}:',p2.get_ano_nascimento())
