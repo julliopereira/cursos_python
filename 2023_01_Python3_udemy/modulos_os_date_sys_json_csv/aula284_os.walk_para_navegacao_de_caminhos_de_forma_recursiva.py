@@ -10,7 +10,15 @@ from itertools import count
 caminho = os.path.join('/home', 'jper', 'Documentos', 'git')
 counter = count()
 
+print(caminho)
+
 for root, dirs, files in os.walk(caminho):
     contador = next(counter)
     print(contador, 'Pasta atual', root)
+
+    for dir_ in dirs:
+        print('  ', contador, 'Dir:', dir_)
+
+    for file_ in files:
+        print('  ', contador, 'file:', file_)
 
