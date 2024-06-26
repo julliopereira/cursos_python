@@ -2,7 +2,7 @@
 
 import os 
 import json
-import shutil
+
 
 NOME_ARQUIVO = 'aula290.json'
 CAMINHO_ABSOLUTO_ARQUIVO = os.path.abspath(
