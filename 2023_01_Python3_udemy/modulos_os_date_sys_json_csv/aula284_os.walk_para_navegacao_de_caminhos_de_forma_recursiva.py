@@ -14,11 +14,11 @@ print(caminho)
 
 for root, dirs, files in os.walk(caminho):
     contador = next(counter)
-    print(contador, 'Pasta atual', root)
+    print(contador, 'Pasta atual', root)        # vai mostrar o caminho de todos os diretorios só não o arquivo
 
     for dir_ in dirs:
-        print('  ', contador, 'Dir:', dir_)
+        print('  ', contador, 'Dir:', dir_)     # vai mostrar o ultimo diretorio 
 
     for file_ in files:
-        print('  ', contador, 'file:', file_)
+        print('  ', contador, 'file:', file_)   # vai mostrar só o arquivo
 
